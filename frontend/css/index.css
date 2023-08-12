@@ -1,11 +1,90 @@
-h1{
-    color: blue;
-}
-
 main
 {
     background-size: 100% 100%;
-    height:400px;
-    background-image: url(C:/Users/bmare/OneDrive/Desktop/Miron/code/KoliCompass/frontend/assets/dormpicture.jpg);
+    height:500px;
+    background-image: url(C:/Users/bmare/OneDrive/Desktop/Miron/code/KoliCompass/frontend/assets/dormdrawing.jpg);
 }
+
+
+
+a#login-button.button.logout.login.w-button {
+    background-color: #66ffcc;
+    background-image: none;
+    border-radius: 25px;
+    border-width: 0;
+    bottom: auto;
+    box-sizing: border-box;
+    color: #253858;
+    cursor: pointer;
+    display: block;
+    flex: 1;
+    float: right;
+    font-family: Poppins, sans-serif;
+    font-size: 12px;
+    left: auto;
+    letter-spacing: 1px;
+    line-height: 19px;
+    margin-left: -15px;
+    margin-right: 30px;
+    margin-top: 30px;
+    padding: 10px 15px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    text-decoration: none;
+    top: 0;
+    transition: background-color 150ms;
+    z-index: 30;
+  }
+   
+  a#login-button.button.logout.login.w-button:active {
+    outline: 0;
+  }
+   
+  a#login-button.button.logout.login.w-button:hover {
+    background-color: #2ac28f;
+    font-weight: 400;
+    outline: 0;
+  }
+
+  .header-container
+  {
+    padding: 20px 20px 25px 20px;
+   
+  }
+
+  .main-container
+  {
+    margin: auto;
+    width: 50%;
+    padding: 250px 0px 0px 0px;
+    text-align: center;
+  }
+
+  #search-bar
+  {
+    width: 500px;
+    height: 50px;
+    border-radius: 60px;
+    border:none;
+    text-indent: 20px;
+  }
+
+  #egyetem-search-text
+  {
+    font-family: 'Varela Round';
+    color: white;
+  }
+
+  #name1, #name2
+  { 
+    font-family: 'Varela Round';
+    font-weight: bold;
+    display:inline;
+  }
+
+  #name2
+  {
+    color: #FF0000;
+  }
 
