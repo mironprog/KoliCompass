@@ -19,8 +19,12 @@
     </header>
     <main>
         <div class="main-container">
-                <div id="login-div"  style="display:none;"> WELCOME
+                <div id="login-div"  style="display:none;">
                     <input type="button" id="close-button" value="X" onclick="closeLogin()" />
+                    <h3>Jelentkezz be linken keresztül</h3>
+                    <p>Nincs szükség jelszóra. E-mailben kapsz egy linket, amelyen keresztül már be is tudsz lépni! </p>
+                    <input type="text" id="email-bar" placeholder="Add meg az e-mail címed">
+                    <input type="button" id="send-email-button" value="E-mail küldése" onclick="sendEmail()">
                 </div>
             <h1 id="egyetem-search-text">Keress rá az egyetemedre</h1>
             <input type="text" placeholder="Keress rá az egyetemedre" id="search-bar">
