@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <script src="C:/Users/bmare/OneDrive/Desktop/Miron/code/KoliCompass/frontend/js/index.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Varela Round' rel='stylesheet'>
     <link rel="stylesheet" type="text/css" href="C:/Users/bmare/OneDrive/Desktop/Miron/code/KoliCompass/frontend/css/index.css">
     <meta charset="UTF-8">
@@ -13,17 +14,21 @@
     <header>
         <div class= "header-container">
             <h1 id = "name1">Koli</h1><h1 id="name2">Compass</h1>
-            <a id="login-button" ms-hide-element="true" href="" class="button logout login w-button">Bejelentkezés</a>
+            <input type="button" id="login-button" value="Bejelentkezés" onclick="openLogin()" />
         </div>
     </header>
     <main>
         <div class="main-container">
+                <div id="login-div"  style="display:none;"> WELCOME
+                    <input type="button" id="close-button" value="X" onclick="closeLogin()" />
+                </div>
             <h1 id="egyetem-search-text">Keress rá az egyetemedre</h1>
             <input type="text" placeholder="Keress rá az egyetemedre" id="search-bar">
         </div>
         
-        <div class="">
+        <div class="" style="margin-top: 1000px;">
             <!-- TODO: Add the first description -->
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque libero voluptas architecto blanditiis excepturi rem sit suscipit culpa illum amet laborum dicta, consectetur beatae accusamus quibusdam vitae ex voluptates vero.</p>
         </div>
         
         <div class="">
