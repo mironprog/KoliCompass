@@ -13,3 +13,13 @@ function sendEmail()
 {
     window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley")
 }
+
+function showList()
+{
+    document.getElementById('egyetem-list').style.display = "block";
+    document.getElementById('search-bar').style.borderBottomLeftRadius = "0px";
+    document.getElementById('search-bar').style.borderBottomRightRadius = "0px";
+    document.getElementById('egyetem-list').style.borderBottomLeftRadius = "25px";
+    document.getElementById('egyetem-list').style.borderBottomRightRadius = "0px";
+
+}

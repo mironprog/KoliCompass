@@ -1,7 +1,7 @@
   main
   {
-    background-size: 100% 100%;
-    height: 525px;
+    background-size: 100%  100%;
+    height: 600px;
     background-image: linear-gradient( rgba(0,0,0,.25), rgba(0,0,0,.25) ), url(C:/Users/bmare/OneDrive/Desktop/Miron/code/KoliCompass/frontend/assets/dormdrawing.jpg);
     object-fit: cover;
     margin: 0;
@@ -29,12 +29,12 @@
 
   #search-bar
   {
-    width: 600px;
+    width: 624px;
     height: 50px;
-    border-radius: 60px;
+    border-radius: 25px;
     border:none;
     text-indent: 20px;
-    
+    outline: none;
   }
 
   #egyetem-search-text
@@ -159,5 +159,53 @@
     outline: 0;
   }
 
+  #egyetem-list
+  {
+    background-color: #FFFFFF;
+    height: 215px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: center;
+  }
+
+  ul
+  {
+    list-style-type: none;
+  }
+
+  ul li 
+  {
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(0,0,0, 0.25);
+    text-align: left;
+    font-weight: bold;
+    
+  }
+
+  ul li:hover
+  {
+    cursor: pointer;
+  }
+
+  a:hover, a:active, a:visited a:focus
+  { 
+    text-decoration: none; 
+    color:black 
+  }
+
+  a
+  {
+    text-decoration: none; 
+    color:black 
+  }
+
+  a:hover
+  {
+    color: #787878;
+  }
+
+
+
+  
   
 
