@@ -21,5 +21,24 @@ function showList()
     document.getElementById('search-bar').style.borderBottomRightRadius = "0px";
     document.getElementById('egyetem-list').style.borderBottomLeftRadius = "25px";
     document.getElementById('egyetem-list').style.borderBottomRightRadius = "0px";
+}
 
+function searchFunction()
+{
+  var input, filter, ul, li, a, i, txtValue;
+  input = document.getElementById('search-bar');
+  filter = input.value.toUpperCase();
+  ul = document.getElementById('universities');
+  li = ul.getElementsByTagName('li');
+
+  
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    txtValue = a.textContent || a.innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
 }
