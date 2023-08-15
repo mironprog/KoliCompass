@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="C:/Users/bmare/OneDrive/Desktop/Miron/code/KoliCompass/frontend/js/index.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Varela Round' rel='stylesheet'>
     <link rel="stylesheet" type="text/css" href="C:/Users/bmare/OneDrive/Desktop/Miron/code/KoliCompass/frontend/css/index.css">
@@ -22,7 +23,7 @@
                 <div id="login-div"  style="display:none;">
                     <input type="button" id="close-button" value="X" onclick="closeLogin()" />
                     <h3>Jelentkezz be linken keresztül</h3>
-                    <p>Nincs szükség jelszóra. E-mailben kapsz egy linket, amelyen keresztül már be is tudsz lépni! </p>
+                    <p style="margin-top: 20px;">Nincs szükség jelszóra. E-mailben kapsz egy linket, amelyen keresztül már be is tudsz lépni! </p>
                     <input type="text" id="email-bar" placeholder="Add meg az e-mail címed">
                     <input type="button" id="send-email-button" value="E-mail küldése" onclick="sendEmail()">
                 </div>

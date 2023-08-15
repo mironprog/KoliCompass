@@ -1,6 +1,7 @@
 function openLogin() 
 {
     document.getElementById('login-div').style.display = "block";
+    document.getElementById('login-div').style.boxShadow = "0 0 0 9999px #000000b0";
 }
 
 function closeLogin()
@@ -10,11 +11,5 @@ function closeLogin()
 
 function sendEmail()
 {
-    var link = "mailto:bmaresz90@gmail.com"
-             + "?cc=bmaresz90@gmail.com"
-             + "&subject=" + encodeURIComponent("This is my subject")
-             + "&body=" + encodeURIComponent(document.getElementById('myText').value)
-    ;
-    
-    window.location.href = link
+    window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley")
 }
