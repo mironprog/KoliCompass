@@ -1,12 +1,11 @@
-  main
+   main
   {
-    background-size: 100%  100%;
+    background-size: 100%;
     height: 600px;
-    background-image: linear-gradient( rgba(0,0,0,.25), rgba(0,0,0,.25) ), url(C:/Users/bmare/OneDrive/Desktop/Miron/code/KoliCompass/frontend/assets/dormdrawing.jpg);
+    background-image: linear-gradient( rgba(0,0,0,.25), rgba(0,0,0,.25) ), url("../assets/dormdrawing.jpg");
     object-fit: cover;
     margin: 0;
     background-attachment: fixed;
-    background-size: cover;
     background-repeat: repeat-x;
     background-position: center;
     width: 100%;
@@ -29,7 +28,7 @@
 
   #search-bar
   {
-    width: 623px;
+    width: 751px;
     height: 50px;
     border-radius: 25px;
     border:none;
